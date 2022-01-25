@@ -8,7 +8,7 @@ import br.ce.wcaquino.servicos.CalculadoraTest;
 import br.ce.wcaquino.servicos.CalculoValorLocacaoTest;
 import br.ce.wcaquino.servicos.LocacaoServiceTest;
 
-@RunWith(Suite.class)
+//@RunWith(Suite.class)
 @SuiteClasses({
 	CalculadoraTest.class,
 	CalculoValorLocacaoTest.class,
@@ -16,5 +16,4 @@ import br.ce.wcaquino.servicos.LocacaoServiceTest;
 })
 public class SuiteExecucao {
 	//Remova se puder!
-	
 }
