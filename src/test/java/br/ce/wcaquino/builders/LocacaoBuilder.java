@@ -1,15 +1,18 @@
 package br.ce.wcaquino.builders;
 
+import br.ce.wcaquino.entidades.Usuario;
+import br.ce.wcaquino.utils.DataUtils;
+
+import java.util.Arrays;
+
 import static br.ce.wcaquino.builders.FilmeBuilder.umFilme;
 import static br.ce.wcaquino.builders.UsuarioBuilder.umUsuario;
 
-import java.util.Arrays;
+import java.lang.Double;
 import java.util.Date;
 
 import br.ce.wcaquino.entidades.Filme;
 import br.ce.wcaquino.entidades.Locacao;
-import br.ce.wcaquino.entidades.Usuario;
-import br.ce.wcaquino.utils.DataUtils;
 
 
 public class LocacaoBuilder {
